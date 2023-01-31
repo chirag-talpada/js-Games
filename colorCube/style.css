@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --cell-size: 100px;
+  }
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fc6e61;
+}
+
+table td{
+    border: 2px solid white;
+    border-radius: 5px;
+    height: var(--cell-size);
+    width: var(--cell-size);
+    cursor: pointer;
+}
+
+table{
+    background-color: #fff;
+    border-radius: 5px;
+}
